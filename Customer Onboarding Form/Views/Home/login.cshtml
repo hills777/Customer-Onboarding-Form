@@ -1,0 +1,26 @@
+﻿@model LoginViewModel
+
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<form asp-controller="Account" asp-action="Login" method="post">
+    <!-- Add or update the necessary fields for Identity login -->
+    <div>
+        <label asp-for="Email">Email:</label>
+        <input asp-for="Email" />
+    </div>
+    <div>
+        <label asp-for="Password">Password:</label>
+        <input asp-for="Password" />
+    </div>
+    <div>
+        <input type="checkbox" asp-for="RememberMe" />
+        <label asp-for="RememberMe">Remember me</label>
+    </div>
+    <button type="submit">Login</button>
+</form>
+</body>
+
+</html>

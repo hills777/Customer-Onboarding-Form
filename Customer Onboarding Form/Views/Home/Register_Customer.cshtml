@@ -1,0 +1,950 @@
+﻿
+@model UserModel;
+
+<!doctype html><html><head><meta charset="utf-8"/><title>Web 1920 – 3</title><style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	#Web_1920___3 {
+		position: absolute;
+		box-sizing: border-box;
+		transform: translateX(-50%) translateY(-50%);
+		left: 50%;
+		top: 50%;
+		outline: 1px solid #A1A1A1;
+		background: #E5E5E5;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		opacity: 1;
+	}
+	#Rectangle_1091 {
+		opacity: 1;
+		fill: rgba(242,242,242,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		stroke-position: inside;
+		stroke-alignment: inside;
+		stroke-location: inside;
+		shape-rendering: crispedges;
+	}
+	.Rectangle_1091 {
+		position: absolute;
+		overflow: visible;
+		width: 1335px;
+		height: 688px;
+		left: 293px;
+		top: 196px;
+	}
+	#Button_CTA {
+		opacity: 1;
+		position: absolute;
+		width: 666.872802734375px;
+		height: 77.65753173828125px;
+		left: 293.126953125px;
+		top: 806.214599609375px;
+	}
+	#Rectangle_1090 {
+		opacity: 1;
+		fill: rgba(9,21,78,1);
+	}
+	.Rectangle_1090 {
+		position: absolute;
+		overflow: visible;
+		width: 666.873046875px;
+		height: 77.65753173828125px;
+		left: 0px;
+		top: 0px;
+	}
+	#Cancel {
+		opacity: 1;
+		position: absolute;
+		left: 55.34814453125px;
+		top: 22.13580322265625px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 83px;
+		white-space: nowrap;
+		text-align: center;
+	}
+	#Button_CTA_1_2_1 {
+		opacity: 1;
+		position: absolute;
+		width: 666.872802734375px;
+		height: 77.65753173828125px;
+		left: 960.126953125px;
+		top: 806.214599609375px;
+	}
+	#Rectangle_1090_2_0_2 {
+		opacity: 1;
+		fill: rgba(236,136,21,1);
+	}
+	.Rectangle_1090_2_0_2 {
+		position: absolute;
+		overflow: visible;
+		width: 666.873046875px;
+		height: 77.65753173828125px;
+		left: 0px;
+		top: 0px;
+	}
+	#Register {
+		opacity: 1;
+		position: absolute;
+		left: 520.34814453125px;
+		top: 22.13580322265625px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 97px;
+		white-space: nowrap;
+		text-align: center;
+	}
+	#Billing_and_Card_Inf {
+		opacity: 1;
+		position: absolute;
+		width: 895.85888671875px;
+		height: 484.493896484375px;
+		left: 512px;
+		top: 245.50613403320312px;
+	}
+	#Register_New_Custome {
+		opacity: 1;
+		position: absolute;
+		left: 290px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 317px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#Input {
+		opacity: 1;
+		position: absolute;
+		width: 388.5223693847656px;
+		height: 82.60549926757812px;
+		left: 0px;
+		top: 91.78338623046875px;
+	}
+	#Rectangle_726 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(188, 224, 253);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		stroke-position: inside;
+		stroke-alignment: inside;
+		stroke-location: inside;
+		shape-rendering: crispedges;
+	}
+	.Rectangle_726 {
+		position: absolute;
+		overflow: visible;
+		width: 388.5224609375px;
+		height: 57.030792236328125px;
+		left: 0px;
+		top: 25.57470703125px;
+	}
+	#FULL_NAME {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 76px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#Input_2_2_3 {
+		opacity: 1;
+		position: absolute;
+		width: 388.5223693847656px;
+		height: 82.60549926757812px;
+		left: 0px;
+		top: 195.1517333984375px;
+	}
+	#Rectangle_727 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(188, 224, 253);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		stroke-position: inside;
+		stroke-alignment: inside;
+		stroke-location: inside;
+		shape-rendering: crispedges;
+	}
+	.Rectangle_727 {
+		position: absolute;
+		overflow: visible;
+		width: 388.5224609375px;
+		height: 57.030792236328125px;
+		left: 0px;
+		top: 25.57470703125px;
+	}
+	#ADDRESS {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#Input_2_3_4 {
+		opacity: 1;
+		position: absolute;
+		width: 190.10267639160156px;
+		height: 82.60549926757812px;
+		left: 0px;
+		top: 298.5199890136719px;
+	}
+	#Rectangle_729 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(188, 224, 253);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		stroke-position: inside;
+		stroke-alignment: inside;
+		stroke-location: inside;
+		shape-rendering: crispedges;
+	}
+	.Rectangle_729 {
+		position: absolute;
+		overflow: visible;
+		width: 190.1025390625px;
+		height: 57.03082275390625px;
+		left: 0px;
+		top: 25.57470703125px;
+	}
+	#STATE {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 42px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#Input_2_4_5 {
+		opacity: 1;
+		position: absolute;
+		width: 188.91453552246094px;
+		height: 82.60549926757812px;
+		left: 199.60791015625px;
+		top: 298.5199890136719px;
+	}
+	#Rectangle_730 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(188, 224, 253);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		stroke-position: inside;
+		stroke-alignment: inside;
+		stroke-location: inside;
+		shape-rendering: crispedges;
+	}
+	.Rectangle_730 {
+		position: absolute;
+		overflow: visible;
+		width: 188.91455078125px;
+		height: 57.03082275390625px;
+		left: 0px;
+		top: 25.57470703125px;
+	}
+	#COUNTRY {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 68px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#Input_2_5_6 {
+		opacity: 1;
+		position: absolute;
+		width: 388.5223693847656px;
+		height: 141.8323974609375px;
+		left: 0px;
+		top: 401.8883972167969px;
+	}
+	#Rectangle_731 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(188, 224, 253);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		stroke-position: inside;
+		stroke-alignment: inside;
+		stroke-location: inside;
+		shape-rendering: crispedges;
+	}
+	.Rectangle_731 {
+		position: absolute;
+		overflow: visible;
+		width: 388.5224609375px;
+		height: 57.03082275390625px;
+		left: 0px;
+		top: 84.8016357421875px;
+	}
+	#BVN {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 29px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#Nigeria {
+		opacity: 1;
+		position: absolute;
+		left: 214.01025390625px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 49px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#Symbol_156___1 {
+		opacity: 1;
+		position: absolute;
+		width: 9.4000244140625px;
+		height: 6.0999755859375px;
+		left: 357.630859375px;
+		top: 6.75262451171875px;
+	}
+	#Path_36 {
+		opacity: 1;
+		fill: rgba(38,153,251,1);
+	}
+	.Path_36 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 9.39990234375px;
+		height: 6.0999755859375px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Input_2_6_7 {
+		opacity: 1;
+		position: absolute;
+		width: 388.1859130859375px;
+		height: 82.60549926757812px;
+		left: 507.33642578125px;
+		top: 90.78338623046875px;
+	}
+	#Rectangle_717 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(188, 224, 253);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		stroke-position: inside;
+		stroke-alignment: inside;
+		stroke-location: inside;
+		shape-rendering: crispedges;
+	}
+	.Rectangle_717 {
+		position: absolute;
+		overflow: visible;
+		width: 388.18603515625px;
+		height: 57.030792236328125px;
+		left: 0px;
+		top: 25.57470703125px;
+	}
+	#GENDER {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 56px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#Input_2_7_8 {
+		opacity: 1;
+		position: absolute;
+		width: 388.1859130859375px;
+		height: 82.60549926757812px;
+		left: 507.33642578125px;
+		top: 194.78338623046875px;
+	}
+	#Rectangle_717_3_0_9 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(188, 224, 253);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		stroke-position: inside;
+		stroke-alignment: inside;
+		stroke-location: inside;
+		shape-rendering: crispedges;
+	}
+	.Rectangle_717_3_0_9 {
+		position: absolute;
+		overflow: visible;
+		width: 388.18603515625px;
+		height: 57.030792236328125px;
+		left: 0px;
+		top: 25.57470703125px;
+	}
+	#PHONE_NUMBER {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 109px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#Input_2_8_10 {
+		opacity: 1;
+		position: absolute;
+		width: 388.1859130859375px;
+		height: 82.60549926757812px;
+		left: 507.33642578125px;
+		top: 401.8883972167969px;
+	}
+	#Rectangle_720 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(188, 224, 253);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		stroke-position: inside;
+		stroke-alignment: inside;
+		stroke-location: inside;
+		shape-rendering: crispedges;
+	}
+	.Rectangle_720 {
+		position: absolute;
+		overflow: visible;
+		width: 388.18603515625px;
+		height: 57.03082275390625px;
+		left: 0px;
+		top: 25.57470703125px;
+	}
+	#EMAIL {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 42px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#Input_2_9_11 {
+		opacity: 1;
+		position: absolute;
+		width: 388.5223693847656px;
+		height: 82.60549926757812px;
+		left: 507.33642578125px;
+		top: 298.5199890136719px;
+	}
+	#Rectangle_719 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(188, 224, 253);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		stroke-position: inside;
+		stroke-alignment: inside;
+		stroke-location: inside;
+		shape-rendering: crispedges;
+	}
+	.Rectangle_719 {
+		position: absolute;
+		overflow: visible;
+		width: 388.5224609375px;
+		height: 57.03082275390625px;
+		left: 0px;
+		top: 25.57470703125px;
+	}
+	#DATE_OF_BIRTH {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 99px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#DD_______MM_______YY {
+		opacity: 0.6100000143051147;
+		position: absolute;
+		left: 19.01025390625px;
+		top: 45.7730712890625px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width: 155px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	#Symbol_156___2 {
+		opacity: 1;
+		position: absolute;
+		width: 9.4000244140625px;
+		height: 6.0999755859375px;
+		left: 357.630859375px;
+		top: 50.52569580078125px;
+	}
+	#Path_36_4_0_12 {
+		opacity: 1;
+		fill: rgba(38,153,251,1);
+	}
+	.Path_36_4_0_12 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 9.39990234375px;
+		height: 6.0999755859375px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Access_Bank_Logo {
+		opacity: 1;
+		fill: url(#Access_Bank_Logo_pattern);
+	}
+	.Access_Bank_Logo {
+		position: absolute;
+		overflow: visible;
+		width: 175px;
+		height: 36px;
+		left: 1415px;
+		top: 225px;
+	}
+</style></head><body>
+    
+<div id="Web_1920___3">
+	<svg class="Rectangle_1091">
+		<rect id="Rectangle_1091" rx="0" ry="0" x="0" y="0" width="1335" height="688">
+		</rect>
+	</svg>
+
+		<form asp-action="Register_Customer">
+	<div id="Button_CTA">
+        <a href="Web_1920___6.html">
+		<svg class="Rectangle_1090">
+			<rect id="Rectangle_1090" rx="0" ry="0" x="0" y="0" width="666.872802734375" height="77.65753173828125">
+			</rect>
+		</svg>
+            </a>
+		<div id="Cancel">
+			<span style="font-family:SF Pro Display;font-style:normal;font-weight:normal;font-size:28px;color:rgba(255,255,255,1);">Cancel</span>
+			</div>
+	</div>
+	<div id="Button_CTA_1_2_1">
+        <a href="Web_1920___5.html">
+		<svg class="Rectangle_1090_2_0_2">
+			<rect id="Rectangle_1090_2_0_2" rx="0" ry="0" x="0" y="0" width="666.872802734375" height="77.65753173828125">
+			</rect>
+		</svg>
+            </a>
+		<div id="Register">
+					<button type="submit"><span style="font-family:SF Pro Display;font-style:normal;font-weight:normal;font-size:28px;color:rgba(255,255,255,1);">Register</span></button>
+			</div>
+	</div>
+	<div id="Billing_and_Card_Inf">
+		<div id="Register_New_Custome">
+			<span style="font-family:Arial;font-weight:bold;font-size:28px;color:rgba(9,21,78,1);">Register New Customer</span>
+			</div>
+		<div id="Input">
+			
+			<div id="FULL_NAME">
+				<span style="font-family:SF Pro Display;font-weight:bold;font-size:14px;color:rgba(9,21,78,1);">FULL NAME</span>
+				</div>
+            <input style="display: block;width: 368px;margin-top: 25px;border: 1px solid #bce0fd;border-radius: 5px;padding: 18px 10px;font-size: 16px;color: #a1a0a0;" asp-for="FullName">
+		</div>
+		<div id="Input_2_2_3">
+			
+			<div id="ADDRESS">
+				<span style="font-family:SF Pro Display;font-weight:bold;font-size:14px;color:rgba(9,21,78,1);">ADDRESS</span>
+				</div>
+            <input asp-for =Address style="display: block;width: 368px;margin-top: 25px;border: 1px solid #bce0fd;border-radius: 5px;padding: 18px 10px;font-size: 16px;color: #a1a0a0;">
+		</div>
+        
+        <div>
+		<div id="Input_2_3_4">
+			
+			<div id="STATE">
+				<span style="font-family:SF Pro Display;font-weight:bold;font-size:14px;color:rgba(9,21,78,1);">STATE</span>
+				</div>
+            <input asp-for=State style="display: block;width: 170px;margin-top: 25px;border: 1px solid #bce0fd;border-radius: 5px;padding: 19px 10px;font-size: 16px;color: #a1a0a0;">
+		</div>
+        
+		<div id="Input_2_4_5">
+			
+			<div id="COUNTRY">
+				<span style="font-family:SF Pro Display;font-weight:bold;font-size:14px;color:rgba(9,21,78,1);">COUNTRY</span>
+				</div>
+        
+            
+            <select asp-for=Country name="country"; style="display: block;width: 190px;margin-top: 25px;border: 1px solid #bce0fd;border-radius: 5px;padding: 19px 10px;font-size: 16px;color: #a1a0a0;" >
+<option value="">Country...</option>
+<option value="Afganistan">Afghanistan</option>
+<option value="Albania">Albania</option>
+<option value="Algeria">Algeria</option>
+<option value="American Samoa">American Samoa</option>
+<option value="Andorra">Andorra</option>
+<option value="Angola">Angola</option>
+<option value="Anguilla">Anguilla</option>
+<option value="Antigua &amp; Barbuda">Antigua &amp; Barbuda</option>
+<option value="Argentina">Argentina</option>
+<option value="Armenia">Armenia</option>
+<option value="Aruba">Aruba</option>
+<option value="Australia">Australia</option>
+<option value="Austria">Austria</option>
+<option value="Azerbaijan">Azerbaijan</option>
+<option value="Bahamas">Bahamas</option>
+<option value="Bahrain">Bahrain</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Barbados">Barbados</option>
+<option value="Belarus">Belarus</option>
+<option value="Belgium">Belgium</option>
+<option value="Belize">Belize</option>
+<option value="Benin">Benin</option>
+<option value="Bermuda">Bermuda</option>
+<option value="Bhutan">Bhutan</option>
+<option value="Bolivia">Bolivia</option>
+<option value="Bonaire">Bonaire</option>
+<option value="Bosnia &amp; Herzegovina">Bosnia &amp; Herzegovina</option>
+<option value="Botswana">Botswana</option>
+<option value="Brazil">Brazil</option>
+<option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+<option value="Brunei">Brunei</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Burkina Faso">Burkina Faso</option>
+<option value="Burundi">Burundi</option>
+<option value="Cambodia">Cambodia</option>
+<option value="Cameroon">Cameroon</option>
+<option value="Canada">Canada</option>
+<option value="Canary Islands">Canary Islands</option>
+<option value="Cape Verde">Cape Verde</option>
+<option value="Cayman Islands">Cayman Islands</option>
+<option value="Central African Republic">Central African Republic</option>
+<option value="Chad">Chad</option>
+<option value="Channel Islands">Channel Islands</option>
+<option value="Chile">Chile</option>
+<option value="China">China</option>
+<option value="Christmas Island">Christmas Island</option>
+<option value="Cocos Island">Cocos Island</option>
+<option value="Colombia">Colombia</option>
+<option value="Comoros">Comoros</option>
+<option value="Congo">Congo</option>
+<option value="Cook Islands">Cook Islands</option>
+<option value="Costa Rica">Costa Rica</option>
+<option value="Cote DIvoire">Cote D'Ivoire</option>
+<option value="Croatia">Croatia</option>
+<option value="Cuba">Cuba</option>
+<option value="Curaco">Curacao</option>
+<option value="Cyprus">Cyprus</option>
+<option value="Czech Republic">Czech Republic</option>
+<option value="Denmark">Denmark</option>
+<option value="Djibouti">Djibouti</option>
+<option value="Dominica">Dominica</option>
+<option value="Dominican Republic">Dominican Republic</option>
+<option value="East Timor">East Timor</option>
+<option value="Ecuador">Ecuador</option>
+<option value="Egypt">Egypt</option>
+<option value="El Salvador">El Salvador</option>
+<option value="Equatorial Guinea">Equatorial Guinea</option>
+<option value="Eritrea">Eritrea</option>
+<option value="Estonia">Estonia</option>
+<option value="Ethiopia">Ethiopia</option>
+<option value="Falkland Islands">Falkland Islands</option>
+<option value="Faroe Islands">Faroe Islands</option>
+<option value="Fiji">Fiji</option>
+<option value="Finland">Finland</option>
+<option value="France">France</option>
+<option value="French Guiana">French Guiana</option>
+<option value="French Polynesia">French Polynesia</option>
+<option value="French Southern Ter">French Southern Ter</option>
+<option value="Gabon">Gabon</option>
+<option value="Gambia">Gambia</option>
+<option value="Georgia">Georgia</option>
+<option value="Germany">Germany</option>
+<option value="Ghana">Ghana</option>
+<option value="Gibraltar">Gibraltar</option>
+<option value="Great Britain">Great Britain</option>
+<option value="Greece">Greece</option>
+<option value="Greenland">Greenland</option>
+<option value="Grenada">Grenada</option>
+<option value="Guadeloupe">Guadeloupe</option>
+<option value="Guam">Guam</option>
+<option value="Guatemala">Guatemala</option>
+<option value="Guinea">Guinea</option>
+<option value="Guyana">Guyana</option>
+<option value="Haiti">Haiti</option>
+<option value="Hawaii">Hawaii</option>
+<option value="Honduras">Honduras</option>
+<option value="Hong Kong">Hong Kong</option>
+<option value="Hungary">Hungary</option>
+<option value="Iceland">Iceland</option>
+<option value="India">India</option>
+<option value="Indonesia">Indonesia</option>
+<option value="Iran">Iran</option>
+<option value="Iraq">Iraq</option>
+<option value="Ireland">Ireland</option>
+<option value="Isle of Man">Isle of Man</option>
+<option value="Israel">Israel</option>
+<option value="Italy">Italy</option>
+<option value="Jamaica">Jamaica</option>
+<option value="Japan">Japan</option>
+<option value="Jordan">Jordan</option>
+<option value="Kazakhstan">Kazakhstan</option>
+<option value="Kenya">Kenya</option>
+<option value="Kiribati">Kiribati</option>
+<option value="Korea North">Korea North</option>
+<option value="Korea Sout">Korea South</option>
+<option value="Kuwait">Kuwait</option>
+<option value="Kyrgyzstan">Kyrgyzstan</option>
+<option value="Laos">Laos</option>
+<option value="Latvia">Latvia</option>
+<option value="Lebanon">Lebanon</option>
+<option value="Lesotho">Lesotho</option>
+<option value="Liberia">Liberia</option>
+<option value="Libya">Libya</option>
+<option value="Liechtenstein">Liechtenstein</option>
+<option value="Lithuania">Lithuania</option>
+<option value="Luxembourg">Luxembourg</option>
+<option value="Macau">Macau</option>
+<option value="Macedonia">Macedonia</option>
+<option value="Madagascar">Madagascar</option>
+<option value="Malaysia">Malaysia</option>
+<option value="Malawi">Malawi</option>
+<option value="Maldives">Maldives</option>
+<option value="Mali">Mali</option>
+<option value="Malta">Malta</option>
+<option value="Marshall Islands">Marshall Islands</option>
+<option value="Martinique">Martinique</option>
+<option value="Mauritania">Mauritania</option>
+<option value="Mauritius">Mauritius</option>
+<option value="Mayotte">Mayotte</option>
+<option value="Mexico">Mexico</option>
+<option value="Midway Islands">Midway Islands</option>
+<option value="Moldova">Moldova</option>
+<option value="Monaco">Monaco</option>
+<option value="Mongolia">Mongolia</option>
+<option value="Montserrat">Montserrat</option>
+<option value="Morocco">Morocco</option>
+<option value="Mozambique">Mozambique</option>
+<option value="Myanmar">Myanmar</option>
+<option value="Nambia">Nambia</option>
+<option value="Nauru">Nauru</option>
+<option value="Nepal">Nepal</option>
+<option value="Netherland Antilles">Netherland Antilles</option>
+<option value="Netherlands">Netherlands (Holland, Europe)</option>
+<option value="Nevis">Nevis</option>
+<option value="New Caledonia">New Caledonia</option>
+<option value="New Zealand">New Zealand</option>
+<option value="Nicaragua">Nicaragua</option>
+<option value="Niger">Niger</option>
+<option value="Nigeria">Nigeria</option>
+<option value="Niue">Niue</option>
+<option value="Norfolk Island">Norfolk Island</option>
+<option value="Norway">Norway</option>
+<option value="Oman">Oman</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Palau Island">Palau Island</option>
+<option value="Palestine">Palestine</option>
+<option value="Panama">Panama</option>
+<option value="Papua New Guinea">Papua New Guinea</option>
+<option value="Paraguay">Paraguay</option>
+<option value="Peru">Peru</option>
+<option value="Phillipines">Philippines</option>
+<option value="Pitcairn Island">Pitcairn Island</option>
+<option value="Poland">Poland</option>
+<option value="Portugal">Portugal</option>
+<option value="Puerto Rico">Puerto Rico</option>
+<option value="Qatar">Qatar</option>
+<option value="Republic of Montenegro">Republic of Montenegro</option>
+<option value="Republic of Serbia">Republic of Serbia</option>
+<option value="Reunion">Reunion</option>
+<option value="Romania">Romania</option>
+<option value="Russia">Russia</option>
+<option value="Rwanda">Rwanda</option>
+<option value="St Barthelemy">St Barthelemy</option>
+<option value="St Eustatius">St Eustatius</option>
+<option value="St Helena">St Helena</option>
+<option value="St Kitts-Nevis">St Kitts-Nevis</option>
+<option value="St Lucia">St Lucia</option>
+<option value="St Maarten">St Maarten</option>
+<option value="St Pierre &amp; Miquelon">St Pierre &amp; Miquelon</option>
+<option value="St Vincent &amp; Grenadines">St Vincent &amp; Grenadines</option>
+<option value="Saipan">Saipan</option>
+<option value="Samoa">Samoa</option>
+<option value="Samoa American">Samoa American</option>
+<option value="San Marino">San Marino</option>
+<option value="Sao Tome &amp; Principe">Sao Tome &amp; Principe</option>
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="Senegal">Senegal</option>
+<option value="Serbia">Serbia</option>
+<option value="Seychelles">Seychelles</option>
+<option value="Sierra Leone">Sierra Leone</option>
+<option value="Singapore">Singapore</option>
+<option value="Slovakia">Slovakia</option>
+<option value="Slovenia">Slovenia</option>
+<option value="Solomon Islands">Solomon Islands</option>
+<option value="Somalia">Somalia</option>
+<option value="South Africa">South Africa</option>
+<option value="Spain">Spain</option>
+<option value="Sri Lanka">Sri Lanka</option>
+<option value="Sudan">Sudan</option>
+<option value="Suriname">Suriname</option>
+<option value="Swaziland">Swaziland</option>
+<option value="Sweden">Sweden</option>
+<option value="Switzerland">Switzerland</option>
+<option value="Syria">Syria</option>
+<option value="Tahiti">Tahiti</option>
+<option value="Taiwan">Taiwan</option>
+<option value="Tajikistan">Tajikistan</option>
+<option value="Tanzania">Tanzania</option>
+<option value="Thailand">Thailand</option>
+<option value="Togo">Togo</option>
+<option value="Tokelau">Tokelau</option>
+<option value="Tonga">Tonga</option>
+<option value="Trinidad &amp; Tobago">Trinidad &amp; Tobago</option>
+<option value="Tunisia">Tunisia</option>
+<option value="Turkey">Turkey</option>
+<option value="Turkmenistan">Turkmenistan</option>
+<option value="Turks &amp; Caicos Is">Turks &amp; Caicos Is</option>
+<option value="Tuvalu">Tuvalu</option>
+<option value="Uganda">Uganda</option>
+<option value="Ukraine">Ukraine</option>
+<option value="United Arab Erimates">United Arab Emirates</option>
+<option value="United Kingdom">United Kingdom</option>
+<option value="United States of America">United States of America</option>
+<option value="Uraguay">Uruguay</option>
+<option value="Uzbekistan">Uzbekistan</option>
+<option value="Vanuatu">Vanuatu</option>
+<option value="Vatican City State">Vatican City State</option>
+<option value="Venezuela">Venezuela</option>
+<option value="Vietnam">Vietnam</option>
+<option value="Virgin Islands (Brit)">Virgin Islands (Brit)</option>
+<option value="Virgin Islands (USA)">Virgin Islands (USA)</option>
+<option value="Wake Island">Wake Island</option>
+<option value="Wallis &amp; Futana Is">Wallis &amp; Futana Is</option>
+<option value="Yemen">Yemen</option>
+<option value="Zaire">Zaire</option>
+<option value="Zambia">Zambia</option>
+<option value="Zimbabwe">Zimbabwe</option>
+</select>
+            
+		</div>
+    </div>
+		
+        <div id="Input_2_5_6">
+	
+			<div id="BVN">
+				<span style="font-family:SF Pro Display;font-weight:bold;font-size:14px;color:rgba(9,21,78,1);">BVN</span>
+				</div>
+            <input asp-for ="Bvn"  name= "Bvn" type= "text" style="display: block;width: 368px;margin-top: 25px;border: 1px solid #bce0fd;border-radius: 5px;padding: 18px 10px;font-size: 16px;color: #a1a0a0;">	
+		</div>
+        
+		<div id="Input_2_6_7">
+			
+			<div id="GENDER">
+				<span style="font-family:SF Pro Display;font-weight:bold;font-size:14px;color:rgba(9,21,78,1);">GENDER</span>
+				</div>
+
+				 <select asp-for="Gender" name="Gender"; style="display: block;width: 190px;margin-top: 25px;border: 1px solid #bce0fd;border-radius: 5px;padding: 19px 10px;font-size: 16px;color: #a1a0a0;" >
+					<option value="">Gender...</option>
+					 <option value="Male">Male</option>
+					<option value="Female">Female</option>
+				</select>
+		</div>
+		<div id="Input_2_7_8">
+			
+			<div id="PHONE_NUMBER">
+				<span style="font-family:SF Pro Display;font-weight:bold;font-size:14px;color:rgba(9,21,78,1);">PHONE NUMBER</span>
+				</div>
+            <input asp-for =PhoneNumber  style="display: block;width: 368px;margin-top: 25px;border: 1px solid #bce0fd;border-radius: 5px;padding: 18px 10px;font-size: 16px;color: #a1a0a0;">
+		</div>
+		<div id="Input_2_8_10">
+			
+			<div id="EMAIL">
+				<span style="font-family:SF Pro Display;font-weight:bold;font-size:14px;color:rgba(9,21,78,1);">EMAIL</span>
+				</div>
+            <input asp-for =Email style="display: block;width: 368px;margin-top: 25px;border: 1px solid #bce0fd;border-radius: 5px;padding: 18px 10px;font-size: 16px;color: #a1a0a0;">
+		</div>
+		<div id="Input_2_9_11">
+			
+			<div id="DATE_OF_BIRTH">
+				<span style="font-family:SF Pro Display;font-weight:bold;font-size:14px;color:rgba(9,21,78,1);">DATE OF BIRTH</span>
+				</div>
+            
+            <input asp-for =DateOfBirth type="date" name="date of birth" style="display: block;width: 368px;margin-top: 25px;border: 1px solid #bce0fd;border-radius: 5px;padding: 18px 10px;font-size: 16px;color: #a1a0a0; font-family:SF Pro Display;font-style:normal;font-weight:normal">
+            
+		</div>
+		
+        
+	</div>
+	<svg class="Access_Bank_Logo">
+		<pattern id="Access_Bank_Logo_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="275" height="96" href="/image/access_logo.jpg"/>
+		</pattern>
+		<rect id="Access_Bank_Logo" rx="0" ry="0" x="0" y="0" width="275" height="96">
+		</rect>
+	</svg>
+		</form>
+</div>
+</body></html>
